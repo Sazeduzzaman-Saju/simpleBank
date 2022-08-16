@@ -1,0 +1,78 @@
+/* <======Google Font: Poppins=======>  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* <======Common Custom Style Css=======>  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+}
+
+/* <=========Custom Style Start=========> */
+
+
+.login-area{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.input-field{
+    border: none;
+    border-bottom : 1px solid rgb(99, 98, 98);
+    outline: none;
+}
+.input-field:focus{
+    border: none;
+    border-bottom : 1px solid rgb(99, 98, 98);
+    outline: none;
+}
+.btns{
+    padding:  15px 30px;
+    background-color: #D94C4E;
+    transition: all 0.6s;
+    border-radius: 4px;
+
+}
+.btns:hover{
+    background-color: red;
+}
+.forgot{
+    color: cadetblue;
+    text-decoration: none;
+}
+.icons {
+    font-size: 25px;
+    background-color: #D94C4E;
+    color: white;
+    margin-left: 10px;
+    padding-top: 5px;
+    width: 45px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.6s;
+}
+.login-bg{
+    background-image: url(../img/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icons:hover {
+    background-color: red;
+    transform: scale(1.1);
+    
+}
+
+
+
+.amount-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
